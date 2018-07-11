@@ -1,0 +1,39 @@
+h1{
+  font-family:Impact, Charcoal, sans-serif
+}
+h2{
+  color: Blue
+
+}
+h3{
+  color: Maroon;
+
+}
+img {
+  width:80%; height:auto; max-width:230px;
+  }
+  .column {
+    float: left;
+    width: 20%;
+    padding: 2px;
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  html{
+    background-color:Thistle;
+  }
+
+  .enlarge-onhover {
+       width: 200px;
+       height: 200px;
+  }
+
+  .enlarge-onhover:hover {
+       width: 400px;
+       height: 300px;
+  }
